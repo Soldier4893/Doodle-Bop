@@ -17,6 +17,7 @@ public class resize {
     {
       nh = h;
       nw = (icon.getIconWidth() * nh) / icon.getIconHeight();
+
     }
 
     return new ImageIcon(icon.getImage().getScaledInstance(nw, nh, Image.SCALE_DEFAULT));
